@@ -67,7 +67,6 @@ $routes->get("uploads/(:any)", "Upload::display_image");
 $routes->match(['get', 'post'],'register', 'Users::register', ['filter' => 'Noauth']);
 $routes->match(['get', 'post'],'profile', 'Users::profile', ['filter' => 'auth']);
 
-
 $routes->get('/candidates', 'CandidateController::index', ['filter' => 'auth']);
 $routes->get('public/canditates/fetch_single_data/(:any)', 'CandidateController::fetch_single_data/$1');
 $routes->get('public/candidates/delete/(:any)', 'CandidateController::delete/$1');
