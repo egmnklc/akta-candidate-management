@@ -55,6 +55,12 @@ PHP version 7.4 or higher is required, with the following extensions installed:
 - [intl](http://php.net/manual/en/intl.requirements.php)
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
 
+# Project Details
+
+The web platform is created with CodeIgniter4 and works on MVC (Model View Controller) pattern. Allows a company to keep track of their contacted LinkedIn candidates. There're constraints to prevent addition of an existing candidate. 
+
+The platform allows the creation of HR (Human Resources) accounts and candidates are labeled by the currently logged in HR account's name, allowing management to keep track of which candidate is contacted by which HR agent.
+
 Additionally, make sure that the following extensions are enabled in your PHP:
 
 - json (enabled by default - don't turn it off)
